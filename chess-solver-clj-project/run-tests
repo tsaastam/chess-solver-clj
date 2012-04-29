@@ -1,0 +1,2 @@
+#!/bin/bash
+CLOJURE_EXT=.:mylib:lib ./clj-env-dir test/chess/test/core.clj 

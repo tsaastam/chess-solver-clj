@@ -1,0 +1,10 @@
+To compile:     lein clean && lein jar
+
+To run tests:   ./run-tests
+
+To run, e.g.:   ./run '[3 3]' '{:K 1, :R 2}'
+
+Where [3 3] is the board size, the other thing is piece counts.
+:Q = queen, :K = king, :R = rook, :B = bishop, :N = knight.
+
+For more info: http://lobotomys.blogspot.com/
